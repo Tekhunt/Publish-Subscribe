@@ -13,10 +13,3 @@ class User:
         return "You already have an automation with this name, please enter a different name for this automation"
 
 
-user1 = User("hunter")
-print(user1.username)
-print(user1.created_automations)
-user1.create_user()
-print(user1.create_automation("feedback"))
-print(user1.create_automation("feedback"))
-print(user1.created_automations)
